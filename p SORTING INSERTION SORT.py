@@ -1,3 +1,4 @@
+# SORTING INSERTION SORT
 def insertion_sort(arr):
     iterasi = 1
     for i in range(1, len(arr)):
@@ -13,11 +14,11 @@ def insertion_sort(arr):
         print(f"Iterasi ke-{iterasi}: {arr}")
         iterasi += 1
 
-print("=== PROGRAM INSERTION SORT ===")
+print("PROGRAM INSERTION SORT")
 jumlah = int(input("Masukkan jumlah data: "))
 angka_input = input(f"Masukkan {jumlah} angka (pisahkan dengan spasi): ").split()
 
-# Ubah input string jadi integer
+#Ubah input string jadi integer
 arr = [int(x) for x in angka_input]
 
 print(f"\nData awal: {arr}")

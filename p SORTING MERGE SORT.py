@@ -1,3 +1,4 @@
+# SORTING MERGE SORT
 iterasi_ms = 1
 
 def merge_sort(arr):
@@ -37,7 +38,7 @@ def merge_sort(arr):
         print(f"Proses merge ke-{iterasi_ms}: {arr}")
         iterasi_ms += 1
 
-print("=== PROGRAM MERGE SORT ===")
+print("PROGRAM MERGE SORT")
 jumlah = int(input("Masukkan jumlah data: "))
 angka_input = input(f"Masukkan {jumlah} angka (pisahkan dengan spasi): ").split()
 
